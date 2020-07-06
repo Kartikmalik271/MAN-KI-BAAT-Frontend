@@ -1,0 +1,172 @@
+.app{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.navbar{
+  width: 100%;
+  box-shadow: 2px 2px 3px black;
+  position: fixed;
+  background-color: white;
+  z-index: 4;
+}
+.items{
+  list-style: none;
+  display: inline;
+}
+.btn-half{
+  background-color: crimson;
+  margin-right: 8px;
+  border-radius: 7px;
+  color: white;
+  box-shadow: 2px 2px 3px black;
+}
+.btn-half:hover{
+  background-color: rgb(243, 13, 59);
+  color: wheat;
+  
+}
+.logo{
+  width: 4em;
+}
+.content{
+ 
+  width: 100%;
+  position: relative;
+  text-align: center;
+  
+ 
+}
+.heading h1{
+  margin-top: 15%;
+  font-size: 5em;
+  font-style: Helvetica;
+  font: bolder;
+  color: #ed257a;
+}
+.heading p{
+
+  font-style: Helvetica;
+  font: bold;
+  font-size: large;
+  color: #8992a3;
+}
+.illustration{ z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+.card{ position: relative;
+  z-index: 3;
+  border-radius: 10px;
+  box-shadow:3px 3px 3px 3px rgb(180, 180, 180);
+  margin-top: -110%;
+  margin-right: 40px;
+  text-align: center;
+}
+.card h1{
+  
+  font-style: Helvetica;
+  font: bolder;
+  font-size: 3em;
+  color: #5361ca;
+  padding-top: 10px;
+}
+.card p{
+  margin-left:15%;
+  margin-right: 15%;
+}
+
+.icon{ 
+  width: 71%;
+  height: 71%;
+  margin-right: -10px;
+}
+.icon1{ 
+  width: 60%;
+  height: 50%;
+  margin-right: -10px;
+}
+.icon1-1{ 
+  width: 70%;
+  height:70%;
+  margin-right: -10px;
+}
+
+.btn-full{
+  background-color: #ed257a;
+  color: aliceblue;
+  border-radius: 25px;
+  box-shadow: 2px 2px 3px black;
+  width: 60%;
+  margin-bottom: 15px;
+}
+  .btn-full:hover{
+    background-color: crimson;
+    color: wheat;
+    
+}
+.lowerbg{left: 0px;
+  width: 100%;
+  height: 70%;
+  position: absolute;
+  margin-top: 50%;
+  z-index: 1;
+ }
+ .card2{ position: relative;
+  background-color: white;
+  z-index: 3;
+  border-radius: 10px;
+  box-shadow:3px 3px 3px 3px rgb(180, 180, 180);
+  margin-top: 30%;
+  margin-right: 40px;
+  text-align: center;
+}
+.card2 h1{
+  
+  font-style: Helvetica;
+  font: bolder;
+  font-size: 3em;
+  color: #5361ca;
+  padding-top: 10px;
+}
+.card2 span{
+  font-style: Helvetica;
+  font: bolder;
+  font-size: 0.90em;
+  color: #5361ca;
+  padding-top: 10px;
+}
+.card2 p{
+  margin-left:15%;
+  margin-right: 15%;
+}
+
+.icon{ 
+  width: 71%;
+  height: 71%;
+  margin-right: -10px;
+}
+.icon1{ 
+  width: 60%;
+  height: 50%;
+  margin-right: -10px;
+}
+.icon1-1{ 
+  width: 70%;
+  height:70%;
+  margin-right: -10px;
+}
+
+.btn-full{
+  background-color: #ed257a;
+  color: aliceblue;
+  border-radius: 25px;
+  box-shadow: 2px 2px 3px black;
+  width: 60%;
+  margin-bottom: 15px;
+}
+.btn-full:hover{
+  background-color: crimson;
+  color: wheat;
+  
+}
